@@ -153,7 +153,7 @@ img ,.side-bar.list-group-item,.side-bar-card{
     </head>
     <body>
         
-        <div class="navbar navbar-default">
+         <div class="navbar navbar-default">
             <div class="container">
                 <div class="navbar-header">
                     <a href="xin.html" class="navbar-brand">
@@ -161,18 +161,23 @@ img ,.side-bar.list-group-item,.side-bar-card{
                     </a>
                   
                 </div>
-                <ul class="nav navbar-nav">
-                        <li><a href="xin.html">首页</a></li>
-                        <li><a href="#">国际</a></li>
-                        <li><a href="#">头条</a></li>
-                        <li><a href="#">副本</a></li>
-                        <li class="active"><a href="news.html">新闻</a></li>
-                        
+                <label id="toggle-label" class="visible-xs-inline-block" for="toggle-checkbox">menu</label>
+                <input class="hidden" id="toggle-checkbox" type="checkbox">
+                <div class="hidden-xs">
+<!--                    超小屏幕下隐藏-->
+                    <ul class="nav navbar-nav">
+                            <li class="active"><a href="xin.html">首页</a></li>
+                            <li><a href="#">国际</a></li>
+                            <li><a href="#">头条</a></li>
+                            <li><a href="#">副本</a></li>
+                            <li><a href="news.html">新闻</a></li>
+
+                        </ul>
+                     <ul class="nav navbar-nav navbar-right">
+                            <li><a href="login.html" >登录</a></li>
+                            <li><a href="signup.html">注册</a></li> 
                     </ul>
-                <ul class="nav navbar-nav navbar-right">
-                        <li><a href="login.html" >登录</a></li>
-                        <li><a href="signup.html">注册</a></li> 
-                </ul>
+                </div>
             </div>
         </div>
         
